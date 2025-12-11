@@ -7,6 +7,7 @@ It provides a robust pipeline for:
 - Calculating phase-specific properties (concentration, volume)  
 - Analyzing dynamics (diffusion)
 
+Built based on code from [Jack Shepherd](https://pure.york.ac.uk/portal/en/persons/jack-shepherd/) who performed the simulations.
 ## Features
 
 ### Condensate thresholding
