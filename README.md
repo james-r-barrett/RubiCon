@@ -1,6 +1,6 @@
 # RubiCon: Rubisco Condensation Analysis Toolkit
 
-RubiCon (Rubisco Condensation) was designed to analyze and quantify phase separation in LAMMPS molecular dynamics simulations of Rubisco and EPYC1.  
+RubiCon (Rubisco Condensation) was designed to analyze and quantify phase separation in LAMMPS molecular dynamics simulations of Rubisco and linker proteins.  
 It provides a robust pipeline for:
 
 - Detecting condensates  
@@ -9,8 +9,8 @@ It provides a robust pipeline for:
 
 ## Features
 
-### Condensate Detection
-- Uses Kernel Density Estimation (KDE) on neighbor counts to identify dilute vs. condensed phases without assuming Gaussian distributions.
+### Condensate thresholding
+- Uses neighbor counts to identify dilute vs. condensed phases.
 
 ### Geometric Analysis
 - Calculates the volume and concentration of condensed clusters using 3D Convex Hulls with periodic boundary condition (PBC) handling.
